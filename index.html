@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>penguin_fashion</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css file -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- header area start -->
+    <header class="header_area bg-bg_header pt-10 relative pb-36 px-6 z-[1]">
+      <div class="shape absolute top-0 left-[39%] translate-x-[-39%] z-[-1]">
+        <img src="./images/dot.png" alt="" />
+      </div>
+      <!-- navigation -->
+      <nav class="navigation">
+        <div class="container">
+          <div
+            class="navbar flex justify-between items-center flex-col md:flex-row lg:flex-row"
+          >
+            <div
+              class="logo_side max-w-[291.11px] max-h-[39.27px] mb-5 md:mb-0 lg:mb-0"
+            >
+              <img src="./icons/logo.png" alt="" />
+            </div>
+            <div class="menu">
+              <ul
+                class="flex items-center space-x-3 md:space-x-14 lg:space-x-14 md:flex-row lg:flex-row"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="text-menu_color font-medium font-roboto capitalize"
+                    >home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-menu_color font-medium font-roboto capitalize"
+                    >product</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-menu_color font-medium font-roboto capitalize"
+                    >about us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-menu_color font-medium font-roboto capitalize"
+                    >contact us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- banner_section -->
+      <div class="banner_section mt-[50px] md:mt-[11px] lg:mt-[11px]">
+        <div class="container">
+          <div
+            class="banner_inner flex flex-col md:flex-row lg:flex-row items-center justify-between"
+          >
+            <div class="banner_content max-w-[470px]">
+              <h1
+                class="text-[60px] font-bebas font-normal md:max-w-[416px] lg:max-w-[416px] leading-[normal] lg:text-[80px] text-center md:text-left lg:text-left"
+              >
+                <span class="text-yellow_color">Be the Penguins</span> of Winter
+              </h1>
+              <p
+                class="font-normal text-secendary_color font-roboto md:max-w-[357px] lg:max-w-[357px] mb-2 text-center md:text-left lg:text-left"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <div class="cart_button text-center md:text-left lg:text-left">
+                <a
+                  href="#"
+                  class="inline-block py-[18px] px-[33px] bg-gradient-to-r from-button_start from-0% to-button_end top-100% font-roboto font-medium uppercase leading-6 text-white rounded-[10px]"
+                  ><img
+                    src="./icons/shopping-cart 1.png"
+                    alt=""
+                    class="inline max-w-[24px] max-h-[24px] mr-2"
+                  />BUY NOW</a
+                >
+              </div>
+            </div>
+            <div class="banner_img max-w-[570px] mt-[44px] md:mt-0 lg:mt-0">
+              <img src="./images/model.png" class="max-w-full" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header area end -->
+    <!-- main area start -->
+    <main class="main_area mt-[50px] pb-[75px] px-6">
+      <div class="container">
+        <!-- jacket_card -->
+        <div class="jacket_card">
+          <div class="main_heading mb-[21px] md:text-center lg:text-left">
+            <h1
+              class="font-bebas text-[48px] text-center md:text-left lg:text-left font-normal text-primary_color"
+            >
+              W0Man Jacket
+            </h1>
+          </div>
+          <div
+            class="jacket_card_inner grid grid-cols-1 lg:grid-cols-3 gap-[30px]"
+          >
+            <div
+              class="card md:max-w-[370px] md:mx-auto lg:max-w-full lg:mx-0 bg-white rounded-[20px] shadow-card_shadow p-[18px] pb-[23px]"
+            >
+              <div class="img bg-jacket_bg rounded-[20px] p-[22px]">
+                <img src="./images/jacket-1.png" class="w-full" alt="" />
+              </div>
+              <div class="card_body mt-[17px] mb-[21px]">
+                <h2
+                  class="text-primary_color text-2xl font-roboto font-bold mb-[13px]"
+                >
+                  Yellow Coat Jacket
+                </h2>
+                <p
+                  class="font-roboto text-secendary_color font-normal leading-[26px]"
+                >
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div class="card_footer flex justify-between items-center">
+                <h1
+                  class="text-yellow_color font-roboto text-[24px] md:text-[36px] lg:text-[36px] font-black"
+                >
+                  $234
+                </h1>
+                <div class="cart_button">
+                  <a
+                    href="#"
+                    class="inline-block p-[10px] md:py-[18px] md:px-[33px] lg:py-[18px] lg:px-[33px] bg-gradient-to-r from-button_start from-0% to-button_end top-100% font-roboto font-medium uppercase leading-6 text-white rounded-[10px]"
+                    ><img
+                      src="./icons/shopping-cart 1.png"
+                      alt=""
+                      class="inline max-w-[24px] max-h-[24px] mr-2"
+                    />BUY NOW</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="card md:max-w-[370px] md:mx-auto lg:max-w-full lg:mx-0 bg-white rounded-[20px] shadow-card_shadow p-[18px] pb-[23px]"
+            >
+              <div class="img bg-jacket_bg rounded-[20px] p-[22px]">
+                <img src="./images/jacket-2.png" class="w-full" alt="" />
+              </div>
+              <div class="card_body mt-[17px] mb-[21px]">
+                <h2
+                  class="text-primary_color text-2xl font-roboto font-bold mb-[13px]"
+                >
+                  Yellow Coat Jacket
+                </h2>
+                <p
+                  class="font-roboto text-secendary_color font-normal leading-[26px]"
+                >
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div class="card_footer flex justify-between items-center">
+                <h1
+                  class="text-yellow_color font-roboto text-[24px] md:text-[36px] lg:text-[36px] font-black"
+                >
+                  $234
+                </h1>
+                <div class="cart_button">
+                  <a
+                    href="#"
+                    class="inline-block p-[10px] lg:py-[18px] md:py-[18px] lg:px-[33px] md:px-[33px] bg-gradient-to-r from-button_start from-0% to-button_end top-100% font-roboto font-medium uppercase leading-6 text-white rounded-[10px]"
+                    ><img
+                      src="./icons/shopping-cart 1.png"
+                      alt=""
+                      class="inline max-w-[24px] max-h-[24px] mr-2"
+                    />BUY NOW</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="card md:max-w-[370px] md:mx-auto lg:max-w-full lg:mx-0 bg-white rounded-[20px] shadow-card_shadow p-[18px] pb-[23px]"
+            >
+              <div class="img bg-jacket_bg rounded-[20px] p-[22px]">
+                <img src="./images/jacket-3.png" class="w-full" alt="" />
+              </div>
+              <div class="card_body mt-[17px] mb-[21px]">
+                <h2
+                  class="text-primary_color text-2xl font-roboto font-bold mb-[13px]"
+                >
+                  Yellow Coat Jacket
+                </h2>
+                <p
+                  class="font-roboto text-secendary_color font-normal leading-[26px]"
+                >
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div class="card_footer flex justify-between items-center">
+                <h1
+                  class="text-yellow_color font-roboto text-[24px] md:text-[36px] lg:text-[36px] font-black"
+                >
+                  $234
+                </h1>
+                <div class="cart_button">
+                  <a
+                    href="#"
+                    class="inline-block p-[10px] md:py-[18px] lg:py-[18px] md:px-[33px] lg:px-[33px] bg-gradient-to-r from-button_start from-0% to-button_end top-100% font-roboto font-medium uppercase leading-6 text-white rounded-[10px]"
+                    ><img
+                      src="./icons/shopping-cart 1.png"
+                      alt=""
+                      class="inline max-w-[24px] max-h-[24px] mr-2"
+                    />BUY NOW</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- jacket_card -->
+        <div class="jacket_card mt-[100px]">
+          <div class="main_heading mb-[21px] md:text-center lg:text-left">
+            <h1
+              class="font-bebas text-[48px] text-center md:text-left lg:text-left font-normal text-primary_color"
+            >
+              Man Jacket
+            </h1>
+          </div>
+          <div
+            class="jacket_card_inner grid grid-cols-1 lg:grid-cols-3 gap-[30px]"
+          >
+            <div
+              class="card md:max-w-[370px] md:mx-auto lg:max-w-full lg:mx-0 bg-white rounded-[20px] shadow-card_shadow p-[18px] pb-[23px]"
+            >
+              <div class="img bg-jacket_bg rounded-[20px] p-[22px]">
+                <img src="./images/jacket-4.png" class="w-full" alt="" />
+              </div>
+              <div class="card_body mt-[17px] mb-[21px]">
+                <h2
+                  class="text-primary_color text-2xl font-roboto font-bold mb-[13px]"
+                >
+                  Yellow Coat Jacket
+                </h2>
+                <p
+                  class="font-roboto text-secendary_color font-normal leading-[26px]"
+                >
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div class="card_footer flex justify-between items-center">
+                <h1
+                  class="text-yellow_color font-roboto text-[24px] md:text-[36px] lg:text-[36px] font-black"
+                >
+                  $234
+                </h1>
+                <div class="cart_button">
+                  <a
+                    href="#"
+                    class="inline-block p-[10px] md:py-[18px] lg:py-[18px] md:px-[33px] lg:px-[33px] bg-gradient-to-r from-button_start from-0% to-button_end top-100% font-roboto font-medium uppercase leading-6 text-white rounded-[10px]"
+                    ><img
+                      src="./icons/shopping-cart 1.png"
+                      alt=""
+                      class="inline max-w-[24px] max-h-[24px] mr-2"
+                    />BUY NOW</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="card md:max-w-[370px] md:mx-auto lg:max-w-full lg:mx-0 bg-white rounded-[20px] shadow-card_shadow p-[18px] pb-[23px]"
+            >
+              <div class="img bg-jacket_bg rounded-[20px] p-[22px]">
+                <img src="./images/jacket-5.png" class="w-full" alt="" />
+              </div>
+              <div class="card_body mt-[17px] mb-[21px]">
+                <h2
+                  class="text-primary_color text-2xl font-roboto font-bold mb-[13px]"
+                >
+                  Yellow Coat Jacket
+                </h2>
+                <p
+                  class="font-roboto text-secendary_color font-normal leading-[26px]"
+                >
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div class="card_footer flex justify-between items-center">
+                <h1
+                  class="text-yellow_color font-roboto text-[24px] md:text-[36px] lg:text-[36px] font-black"
+                >
+                  $234
+                </h1>
+                <div class="cart_button">
+                  <a
+                    href="#"
+                    class="inline-block p-[10px] md:py-[18px] lg:py-[18px] md:px-[33px] lg:px-[33px] bg-gradient-to-r from-button_start from-0% to-button_end top-100% font-roboto font-medium uppercase leading-6 text-white rounded-[10px]"
+                    ><img
+                      src="./icons/shopping-cart 1.png"
+                      alt=""
+                      class="inline max-w-[24px] max-h-[24px] mr-2"
+                    />BUY NOW</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="card md:max-w-[370px] md:mx-auto lg:max-w-full lg:mx-0 bg-white rounded-[20px] shadow-card_shadow p-[18px] pb-[23px]"
+            >
+              <div class="img bg-jacket_bg rounded-[20px] p-[22px]">
+                <img src="./images/jacket-6.png" class="w-full" alt="" />
+              </div>
+              <div class="card_body mt-[17px] mb-[21px]">
+                <h2
+                  class="text-primary_color text-2xl font-roboto font-bold mb-[13px]"
+                >
+                  Yellow Coat Jacket
+                </h2>
+                <p
+                  class="font-roboto text-secendary_color font-normal leading-[26px]"
+                >
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div class="card_footer flex justify-between items-center">
+                <h1
+                  class="text-yellow_color font-roboto text-[24px] md:text-[36px] lg:text-[36px] font-black"
+                >
+                  $234
+                </h1>
+                <div class="cart_button">
+                  <a
+                    href="#"
+                    class="inline-block p-[10px] md:py-[18px] lg:py-[18px] md:px-[33px] lg:px-[33px] bg-gradient-to-r from-button_start from-0% to-button_end top-100% font-roboto font-medium uppercase leading-6 text-white rounded-[10px]"
+                    ><img
+                      src="./icons/shopping-cart 1.png"
+                      alt=""
+                      class="inline max-w-[24px] max-h-[24px] mr-2"
+                    />BUY NOW</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- main area end -->
+    <!-- footer area start -->
+    <footer class="footer_area pt-[75px] pb-[100px] px-6">
+      <div class="container">
+        <div
+          class="footer_section flex flex-col-reverse items-center justify-between md:flex-col-reverse lg:flex-row gap-[20px]"
+        >
+          <div class="footer_content space-y-[16px]">
+            <div
+              class="footer_content_design bg-white rounded-[20px] shadow-card_shadow p-[21px] lg:pr-[79px] flex flex-col lg:flex-row justify-between items-center gap-[36px]"
+            >
+              <div class="footer_icon max-w-[78px]">
+                <img src="./icons/house.png" alt="" />
+              </div>
+              <div
+                class="footer_content_description text-center md:text-left lg:text-left"
+              >
+                <h2
+                  class="font-roboto text-2xl text-primary_color font-bold mb-[14px]"
+                >
+                  Find the Perfect Fit
+                </h2>
+                <p
+                  class="font-roboto text-secendary_color font-normal max-w-[276px]"
+                >
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+            <div
+              class="footer_content_design bg-white rounded-[20px] shadow-card_shadow p-[21px] lg:pr-[79px] flex flex-col lg:flex-row justify-between items-center gap-[36px]"
+            >
+              <div class="footer_icon max-w-[78px]">
+                <img src="./icons/box.png" alt="" />
+              </div>
+              <div
+                class="footer_content_description text-center md:text-left lg:text-left"
+              >
+                <h2
+                  class="font-roboto text-2xl text-primary_color font-bold mb-[14px]"
+                >
+                  Find the Perfect Fit
+                </h2>
+                <p
+                  class="font-roboto text-secendary_color font-normal max-w-[276px]"
+                >
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+            <div
+              class="footer_content_design bg-white rounded-[20px] shadow-card_shadow p-[21px] lg:pr-[79px] flex flex-col lg:flex-row justify-between items-center gap-[36px]"
+            >
+              <div class="footer_icon max-w-[78px]">
+                <img src="./icons/question.png" alt="" />
+              </div>
+              <div
+                class="footer_content_description text-center md:text-left lg:text-left"
+              >
+                <h2
+                  class="font-roboto text-2xl text-primary_color font-bold mb-[14px]"
+                >
+                  Find the Perfect Fit
+                </h2>
+                <p
+                  class="font-roboto text-secendary_color font-normal max-w-[276px]"
+                >
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="footer_thumbnail max-w-[599px]">
+            <img src="./images/shopping.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer area end -->
+  </body>
+</html>
